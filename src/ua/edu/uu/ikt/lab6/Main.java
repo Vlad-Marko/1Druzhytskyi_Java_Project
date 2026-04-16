@@ -6,12 +6,12 @@ import ua.edu.uu.ikt.lab3.Array;
 
 public class Main {
     static void main() {
-
+        System.out.println("1 завдання");
         System.out.println(Sum.sum(5));
 
         System.out.println(Sum.sum(9));
 
-
+        System.out.println("2 завдання");
         System.out.println(Factorial.factorial(5));
 
         for (int i = 0; i < 10; i++) {
@@ -31,6 +31,7 @@ public class Main {
         System.out.println();
 
         //задача 5
+        System.out.println("5 завдання");
         int[] array1 = Array.createRandomArray(10);
         Array.displayArray(array1);
         MergeSort.mergeSort(array1);
