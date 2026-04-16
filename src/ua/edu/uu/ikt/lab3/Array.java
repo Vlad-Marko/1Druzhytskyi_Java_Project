@@ -64,6 +64,14 @@ public class Array {
         }
         System.out.println("]");
     }
+
+    public static void displayArray(int[] array){
+        System.out.print("[ ");
+        for (int value: array){
+            System.out.print(value+", ");
+        }
+        System.out.println("]");
+    }
     public void getIndexesAndValues(){
         for (int i = 0; i < arr.length; i++){
             System.out.println("Індекс елемента: " + i);
